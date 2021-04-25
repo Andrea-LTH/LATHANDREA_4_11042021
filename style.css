@@ -5,6 +5,28 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
+}
+.col-sm-4 h2
+{
+    font-weight: bold;
+}
+.col-sm-4 p
+{
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.notice
+{
+    font-size: 1em;
+}
+.col-sm-12 p
+{
+    font-size: 1.1em;
+}
+.col-sm-6 p
+{
+    font-size: 1.1em;
 }
 
 a,
@@ -775,25 +797,26 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    font-weight: bold;
+    color:  #e9c985!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: WHITE!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #a55631!important;
+    color:WHITE!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color:#e7c478!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: white!important;
 }
 
 .ltc-atomic-tangerine {
@@ -822,7 +845,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
