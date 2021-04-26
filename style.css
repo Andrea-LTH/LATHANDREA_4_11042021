@@ -22,11 +22,14 @@ body {
 }
 .col-sm-12 p
 {
-    font-size: 1.1em;
+    font-size: 1.3em;
+    color:white;
 }
 .col-sm-6 p
 {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-left: 20px;
 }
 
 a,
@@ -793,21 +796,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #a55631;
 }
 
-.tc-white {
+.tc-yellow {
     font-weight: bold;
     color:  #e9c985!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #a55631;
     color: WHITE!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #a55631!important;
+    background: #F3976C!important;
     color:WHITE!important;
 }
 
