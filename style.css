@@ -1079,6 +1079,10 @@ h3 {
         width: 180px;
         height: 320px;
     }
+    .col-sm-6 img{
+        width: 60%;
+        margin: 20px 80px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1086,10 +1090,18 @@ h3 {
         padding-left: 0;
         padding-right: 0;
     }
+    .col-sm-6 img{
+        width: 60%;
+        margin:20px 80px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .col-sm-6 img{
+        width: 60%;
+        margin: 20px 80px;
     }
 }
