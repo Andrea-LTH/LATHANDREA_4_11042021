@@ -754,7 +754,11 @@ h3 {
     font-weight: 700;
     color: #333333!important;
 }
-
+#bloc-7 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
